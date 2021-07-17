@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteaddlist"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/noteaddlinear" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteaddlinear"
+        android:orientation="horizontal"
+        android:paddingHorizontal="4dp"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:hint="Новая заметка ..."
+            android:id="@+id/noteaddet"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/noteaddbutton"
+            android:background="@drawable/circle"
+            android:src="@drawable/ic_add_24dp" />
+    </LinearLayout>
+</RelativeLayout>

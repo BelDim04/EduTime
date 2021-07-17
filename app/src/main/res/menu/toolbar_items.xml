@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Заметки"
+        android:id="@+id/notelist"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_assignment_24dp"/>
+    <item
+        android:title="Профиль"
+        android:id="@+id/profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name"/>
+</menu>
